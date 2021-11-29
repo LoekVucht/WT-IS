@@ -1,0 +1,32 @@
+@import "startpagina.css";
+
+.gefilterd-tekst {
+    color:gold;
+    padding-top: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+}
+.zoeken  {
+    color: gold;
+    padding-left: 90%;
+    position: relative;
+    font-size: 200%;
+    bottom: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.zoekbalk {
+    background-color: gold;
+    max-width: 7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.zoek-knop {
+    background-color: gold;
+    height: 200%;
+}
+.filmoverzicht-1{
+    padding-bottom: 2em;    
+    grid-template-columns: 1fr 1fr;
+}
+.tweede-film-filter {
+    padding-left: 5em;
+}

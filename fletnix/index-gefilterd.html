@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Fletnix</title>
+    <link rel="stylesheet" href="styles/standaard-instellingen.css">
+    <link rel="stylesheet" href="styles/startpagina-gefilterd.css">
+</head>
+
+<body>
+    <header>
+        <nav><button onclick="location.href='index.html'" type="button">Startpagina</button></nav>
+        <nav><button onclick="location.href='over-fletnix.html'" type="button">Over Fletnix</button></nav>
+        <nav class="log-in-knop"><button onclick="location.href='inloggen.html'" type="button">Log in</button></nav>
+    </header>
+    <main>
+        <h1>Films</h1>
+        <section class="gefilterd-tekst">
+            Je hebt gefilterd op actiefilms.
+        </section>
+        <section class="zoeken">Zoeken</section>
+        <section class="zoeken">
+            <form action="index-zoekresultaten-na-filteren.html">
+                <input type="text" class="zoekbalk" placeholder="Zoeken..." required>
+                <input type="submit" class="zoek-knop" value="Toon zoekresultaten">
+            </form>
+        </section>
+        <section class="filmoverzicht-1">
+            <article>
+                <a href="inloggen.html">
+                    <p class="film-titel-klein">The Matrix</p>
+                </a>
+                <p>Actie</p>
+                <a href="inloggen.html">
+                    <img src="plaatjes/the-matrix.jpg" alt="Filmposter The Matrix" width="450">
+                </a>
+            </article>
+
+            <article class="tweede-film-filter">
+                <a href="inloggen.html">
+                    <p class="film-titel-klein">The Dark Knight</p>
+                </a>
+                <p>Actie</p>
+                <a href="inloggen.html">
+                    <img src="plaatjes/the-dark-knight.jpg" alt="Filmposter The Dark Knight" width="420">
+                </a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <nav><button class="footer-knop" onclick="location.href='privacyverklaring.html'"
+                type="button">Privacyverklaring</button></nav>
+        &copy;Loek 2021
+    </footer>
+</body>
+
+</html>

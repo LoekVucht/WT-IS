@@ -1,0 +1,22 @@
+.over-fletnix {
+    display:grid;
+    grid-template-columns: 50em 100em;
+    align-self: center;
+}
+.over-fletnix-tekst {
+    top: 2em;
+    position: relative;
+    left: 18em;
+    font-size: 30px;
+    text-align: center;
+}
+.fletnix-logo {
+    position: relative;
+    top: 30em;
+    right: 10em;
+}
+ul {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: gold;
+}
